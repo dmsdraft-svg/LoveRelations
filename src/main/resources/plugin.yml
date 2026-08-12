@@ -1,0 +1,25 @@
+name: LoveRelations
+version: 1.0.0
+main: me.loveplugin.LovePlugin
+api-version: '1.21'
+description: Система гендеров, интим-запросов и свадеб
+author: PoperDima
+
+commands:
+  gender:
+    description: Выбор гендера
+    usage: /gender set <male|female> [игрок]
+  sex:
+    description: Интим-запросы
+    usage: /sex <ник> | /sex accept | /sex deny | /sex reload
+  marry:
+    description: Предложение брака и развод
+    usage: /marry <ник> | /marry accept | /marry deny | /marry divorce | /marry resetall
+  sexhelp:
+    description: Помощь по командам
+    usage: /sexhelp [admin]
+
+permissions:
+  plugin.admin:
+    description: Админ-команды плагина
+    default: op
