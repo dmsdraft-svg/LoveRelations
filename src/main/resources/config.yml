@@ -1,0 +1,5 @@
+settings:
+  sex-request-timeout: 30
+  marry-request-timeout: 30
+  marry-announce-radius: 40
+  spray-duration-ticks: 50
